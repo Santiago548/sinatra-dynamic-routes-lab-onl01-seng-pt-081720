@@ -35,7 +35,7 @@ class App < Sinatra::Base
     elsif "multiply"
       (num1 * num2).to_s
     elsif "divide"
-      (params[:number1] / paramas[:number2]).to_s
+      (num1 / num2).to_s
     else
       "I dont know"
     end
