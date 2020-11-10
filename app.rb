@@ -9,7 +9,8 @@ class App < Sinatra::Base
   end
 
   get '/square/:number' do
-
+    @num = params[:number]**
+    "#{@num}"
   end
 
   get '/say/:number/:phrase' do
