@@ -35,6 +35,6 @@ class App < Sinatra::Base
     elsif params[:operation] == "divide"
       params[:number1] / paramas[:number2]
     else
-
+      "I dont know"
   end
 end
