@@ -29,7 +29,7 @@ class App < Sinatra::Base
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
     if "add"
-      (num1+ num2).to_s
+      (num1 + num2).to_s
     elsif "subtract"
       (num1 - num2).to_s
     elsif "multiply"
